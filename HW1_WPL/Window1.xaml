@@ -14,18 +14,19 @@
                 <RowDefinition Height="4*"/>
                 <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
-            <TextBlock Grid.Row="0"
-                       Text="panel1" 
+            <Label Grid.Row="0"
+                       Content="panel1"
+                       
                        HorizontalAlignment="Right" 
                        VerticalAlignment="Center" 
-                       FontSize="16"></TextBlock>
-            <TextBlock Grid.Row="1" 
-                       Text="panel2" 
+                       FontSize="16"></Label>
+            <Label Grid.Row="1" 
+                       Content="panel2" 
                        HorizontalAlignment="Right" 
                        FontSize="24" 
                        VerticalAlignment="Center" 
                        FontWeight="Bold" 
-                       ></TextBlock>
+                       ></Label>
             <UniformGrid Grid.Row="2" 
                          Rows="4" Columns="4" >
                 <Button 
