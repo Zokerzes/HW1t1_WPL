@@ -119,7 +119,13 @@
                 TextBlock.Foreground="White" />
 
         </WrapPanel>
-
+        <Button x:Name="toNext"
+                TextBlock.FontSize="20"
+                Content= "To next task"
+                Grid.Column ="1" 
+                Click="toNext_Click" 
+                FontWeight="Bold" 
+                FontStyle="Italic"/>
 
     </Grid>
 </Window>
